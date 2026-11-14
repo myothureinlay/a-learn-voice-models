@@ -6,7 +6,7 @@ The pack repackages the existing **Kokoro-82M v1.0** model, voice vectors and Ch
 
 ## Downloads
 
-Open [Releases](../../releases) to see the voice-pack release and its asset. GitHub's release asset API reports `download_count`, a count of download requests; retries and other clients can be counted, so it is not a count of unique people or completed installs. Public release assets are accessible without a GitHub account.
+Open [Releases](https://github.com/myothureinlay/a-learn-voice-models/releases) to see the voice-pack release and its asset. GitHub's release asset API reports `download_count`, a count of download requests; retries and other clients can be counted, so it is not a count of unique people or completed installs. Public release assets are accessible without a GitHub account.
 
 The app verifies the archive size and SHA-256 before accepting an installation. The pack is ZIP_STORED to let the app write the model during download, avoiding a separate bzip2 decompression step.
 
