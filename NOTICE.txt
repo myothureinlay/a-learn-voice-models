@@ -1,0 +1,12 @@
+A-Learn Mandarin voice pack, based on Kokoro-82M v1.0 and sherpa-onnx.
+The voices and model were created upstream; they were not trained by A-Learn.
+Kokoro model: https://huggingface.co/hexgrad/Kokoro-82M (Apache-2.0).
+ONNX conversion and pack: https://github.com/k2-fsa/sherpa-onnx (Apache-2.0).
+Chinese lexicon generated from Misaki (Apache-2.0) and pypinyin (MIT):
+https://github.com/hexgrad/misaki and https://github.com/mozillazg/python-pinyin
+Kokoro's training-data acknowledgments: Koniwa tnc (CC BY 3.0),
+https://github.com/koniwa/koniwa, and SIWIS (CC BY 4.0),
+https://datashare.ed.ac.uk/handle/10283/2353. Their recordings are not included.
+Normalization data source: https://huggingface.co/csukuangfj/icefall-tts-aishell3-vits-low-2024-04-06
+The source inputs for these normalization FST files have not been independently audited.
+See LICENSE and PYPINYIN-LICENSE for the applicable license texts.
