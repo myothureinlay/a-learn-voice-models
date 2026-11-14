@@ -1,5 +1,7 @@
 # A-Learn offline Mandarin voice pack
 
+![Voice pack downloads](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/voicepack-v1/total?label=Voice%20pack%20downloads)
+
 This repository hosts a Mandarin voice pack used by the A-Learn Chinese Dictionary Android app. The model runs on the device after download; voice data are not sent to a translation or speech server.
 
 The pack repackages the existing **Kokoro-82M v1.0** model, voice vectors and Chinese frontend files distributed by **sherpa-onnx**. The model and voices were created upstream, not newly trained for A-Learn. Audio quality and Mandarin pronunciation depend on the upstream model and must be assessed on the target device.
