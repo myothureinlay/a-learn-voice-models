@@ -1,0 +1,73 @@
+{
+  "split_utterances": [
+    800,
+    180,
+    300
+  ],
+  "split_speakers": [
+    93,
+    18,
+    32
+  ],
+  "split_syllables": [
+    8427,
+    2050,
+    3328
+  ],
+  "voice_ids": [
+    49,
+    50,
+    51,
+    52
+  ],
+  "base_model_sha256": "b40f62b166ac8164b0627ef48a0b358eda0985e272fb03ef5252e7206305da11",
+  "alignment_sha256": "62a9bfe32eceac17719fab175469c5c2ca2486dfa20124d814ab2b144e098789",
+  "validation": {
+    "0": {
+      "syllables": 2050,
+      "normalized_mae_ms": 94.623,
+      "raw_mae_ms": 101.327,
+      "mean_duration_ratio": 1.0
+    },
+    "0.25": {
+      "syllables": 2050,
+      "normalized_mae_ms": 91.657,
+      "raw_mae_ms": 98.632,
+      "mean_duration_ratio": 1.0023
+    },
+    "0.5": {
+      "syllables": 2050,
+      "normalized_mae_ms": 87.939,
+      "raw_mae_ms": 95.31,
+      "mean_duration_ratio": 1.0045
+    },
+    "0.75": {
+      "syllables": 2050,
+      "normalized_mae_ms": 84.209,
+      "raw_mae_ms": 92.002,
+      "mean_duration_ratio": 1.0115
+    },
+    "1.0": {
+      "syllables": 2050,
+      "normalized_mae_ms": 79.031,
+      "raw_mae_ms": 89.098,
+      "mean_duration_ratio": 1.0315
+    }
+  },
+  "strength": 1.0,
+  "held_out_before": {
+    "syllables": 3328,
+    "normalized_mae_ms": 92.814,
+    "raw_mae_ms": 98.83,
+    "mean_duration_ratio": 1.0
+  },
+  "held_out_after": {
+    "syllables": 3328,
+    "normalized_mae_ms": 77.074,
+    "raw_mae_ms": 85.817,
+    "mean_duration_ratio": 1.0309
+  },
+  "weight_offset": 81242567,
+  "weight_bytes": 102400,
+  "model_sha256": "0d73f5595f1769b499300fb099b7bd93f5c223b19bd1229511886de2c0335917"
+}

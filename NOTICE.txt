@@ -1,5 +1,5 @@
 A-Learn Mandarin voice pack, based on Kokoro-82M v1.0 and sherpa-onnx.
-The voices and model were created upstream; they were not trained by A-Learn.
+The base voices and model were created upstream. A-Learn modified the duration projection on 2026-11-19.
 Kokoro model: https://huggingface.co/hexgrad/Kokoro-82M (Apache-2.0).
 ONNX conversion and pack: https://github.com/k2-fsa/sherpa-onnx (Apache-2.0).
 Chinese lexicon generated from Misaki (Apache-2.0) and pypinyin (MIT):
@@ -10,3 +10,6 @@ https://datashare.ed.ac.uk/handle/10283/2353. Their recordings are not included.
 Normalization data source: https://huggingface.co/csukuangfj/icefall-tts-aishell3-vits-low-2024-04-06
 The source inputs for these normalization FST files have not been independently audited.
 See LICENSE and PYPINYIN-LICENSE for the applicable license texts.
+
+Timing supervision: AISHELL-3, Beijing Shell Shell Technology Co., Ltd. (Apache 2.0), https://www.openslr.org/93/. Alignment derived from PaddleSpeech: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/aishell3/tts3.
+时长层微调使用北京希尔贝壳科技有限公司发布的 AISHELL-3 普通话语料及 PaddleSpeech 的时间对齐标注。
