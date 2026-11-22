@@ -1,0 +1,54 @@
+{
+  "training_frames": 18432,
+  "utterances": [
+    201,
+    27,
+    33
+  ],
+  "validation": {
+    "0.0": {
+      "contour_st": 3.23450085830301,
+      "slope_st": 1.227254112197849,
+      "register_shift_st": 0.0
+    },
+    "0.125": {
+      "contour_st": 3.0247202982756334,
+      "slope_st": 1.1463404082891462,
+      "register_shift_st": 0.1037718007142906
+    },
+    "0.25": {
+      "contour_st": 2.8285193787556913,
+      "slope_st": 1.0686676991742874,
+      "register_shift_st": 0.20784324958617215
+    },
+    "0.5": {
+      "contour_st": 2.480335750548374,
+      "slope_st": 0.9279523744049978,
+      "register_shift_st": 0.41699054116033446
+    },
+    "0.75": {
+      "contour_st": 2.2130709197125555,
+      "slope_st": 0.8183096285063458,
+      "register_shift_st": 0.6276535269247232
+    },
+    "1.0": {
+      "contour_st": 2.067982311743015,
+      "slope_st": 0.7569118786980092,
+      "register_shift_st": 0.8400468551489497
+    }
+  },
+  "strength": 0.5,
+  "test_v2": {
+    "contour_st": 3.4775895552838754,
+    "slope_st": 1.213630591610147,
+    "register_shift_st": 0.0
+  },
+  "test_candidate": {
+    "contour_st": 2.781352872040245,
+    "slope_st": 0.9384162222770114,
+    "register_shift_st": 0.3164005954672537
+  },
+  "offset": 7706964,
+  "source_sha256": "0d73f5595f1769b499300fb099b7bd93f5c223b19bd1229511886de2c0335917",
+  "sha256": "ce13e35d4e5330b3404ef36368fa97377a577068dc6f2ace0fd3b1d164ab60e2"
+}

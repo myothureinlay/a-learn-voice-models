@@ -1,5 +1,7 @@
 # A-Learn Mandarin voices · A-Learn 普通话语音包
 
+[Android 2.0.2 voice preview and matched audio / 安卓 2.0.2 试听版与音频对比](https://github.com/myothureinlay/a-learn-voice-models/releases/tag/mandarin-voice-preview-2.0.2) · [Pitch and duration evaluation / 基频与时长评估](training/prosody/README.md)
+
 [Android and voice downloads / 安卓应用与语音包](https://github.com/myothureinlay/a-learn-voice-models/releases/tag/voicepack-v2) · [Version history / 版本记录](CHANGELOG.md) · [Training and evaluation / 训练与评估](training/README.md)
 
 ![v2 pack downloads / v2 语音包下载次数](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/voicepack-v2/a-learn-kokoro-mandarin-v2.zip?label=v2%20voice%20pack)

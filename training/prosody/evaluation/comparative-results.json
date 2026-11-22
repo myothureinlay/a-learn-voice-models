@@ -1,0 +1,132 @@
+{
+  "protocol": {
+    "voice_ids": [
+      49,
+      50,
+      51,
+      52
+    ],
+    "speed": 0.9,
+    "silence_scale": 0.2,
+    "lexicon": "v2 upstream lexicon shared by all three model runs",
+    "isolated": "Five syllable families by four tones by four synthetic voices; one recording per family and tone.",
+    "phrase_timing": "Reference speech span from first to last syllable. Twenty-four held-out texts with eight short, eight long and eight paused utterances. Speakers may recur across categories.",
+    "interpretation": "Nearest contour and pitch-shape errors are single-reference acoustic measures. Correct pronunciation, audible clipping and naturalness require listening judgments. Clipped_samples counts full-scale PCM samples, not missing ends of words."
+  },
+  "models": {
+    "v2": {
+      "isolated_and_waveform": {
+        "syllables": 80,
+        "phrase_outputs": 32,
+        "centered_f0_shape_mae_st": 2.0622531944444447,
+        "family_centered_f0_mae_st": 3.959512916666667,
+        "nearest_reference_tone_count": 26,
+        "active_duration_mae_ms": 274.8625,
+        "mean_duration_bias_ms": -273.5375,
+        "all_outputs_clipped_samples": 0,
+        "per_tone_centered_shape_mae_st": {
+          "1": 1.0629,
+          "2": 2.1329,
+          "3": 1.9628,
+          "4": 3.0904
+        }
+      },
+      "held_out_phrase_timing": {
+        "short": {
+          "n": 8,
+          "span_mae_ms": 168.8,
+          "span_bias_ms": -162.5
+        },
+        "long": {
+          "n": 8,
+          "span_mae_ms": 605.0,
+          "span_bias_ms": -585.0
+        },
+        "paused": {
+          "n": 8,
+          "span_mae_ms": 871.9,
+          "span_bias_ms": -664.4,
+          "median_reference_pause_ms": 365.0,
+          "median_generated_longest_quiet_ms": 280.0,
+          "longest_quiet_mae_ms": 200.6
+        }
+      }
+    },
+    "pitch": {
+      "isolated_and_waveform": {
+        "syllables": 80,
+        "phrase_outputs": 32,
+        "centered_f0_shape_mae_st": 1.9880823611111111,
+        "family_centered_f0_mae_st": 3.977756666666667,
+        "nearest_reference_tone_count": 23,
+        "active_duration_mae_ms": 274.8,
+        "mean_duration_bias_ms": -273.35,
+        "all_outputs_clipped_samples": 0,
+        "per_tone_centered_shape_mae_st": {
+          "1": 0.7956,
+          "2": 1.8892,
+          "3": 1.9059,
+          "4": 3.3617
+        }
+      },
+      "held_out_phrase_timing": {
+        "short": {
+          "n": 8,
+          "span_mae_ms": 169.4,
+          "span_bias_ms": -161.9
+        },
+        "long": {
+          "n": 8,
+          "span_mae_ms": 605.0,
+          "span_bias_ms": -586.2
+        },
+        "paused": {
+          "n": 8,
+          "span_mae_ms": 870.6,
+          "span_bias_ms": -665.6,
+          "median_reference_pause_ms": 365.0,
+          "median_generated_longest_quiet_ms": 277.5,
+          "longest_quiet_mae_ms": 200.6
+        }
+      }
+    },
+    "combined": {
+      "isolated_and_waveform": {
+        "syllables": 80,
+        "phrase_outputs": 32,
+        "centered_f0_shape_mae_st": 1.9626586111111117,
+        "family_centered_f0_mae_st": 3.9820463888888895,
+        "nearest_reference_tone_count": 25,
+        "active_duration_mae_ms": 299.6625,
+        "mean_duration_bias_ms": -299.6625,
+        "all_outputs_clipped_samples": 0,
+        "per_tone_centered_shape_mae_st": {
+          "1": 0.7544,
+          "2": 1.7775,
+          "3": 1.8814,
+          "4": 3.4373
+        }
+      },
+      "held_out_phrase_timing": {
+        "short": {
+          "n": 8,
+          "span_mae_ms": 175.6,
+          "span_bias_ms": -171.9
+        },
+        "long": {
+          "n": 8,
+          "span_mae_ms": 629.4,
+          "span_bias_ms": -609.4
+        },
+        "paused": {
+          "n": 8,
+          "span_mae_ms": 858.1,
+          "span_bias_ms": -694.4,
+          "median_reference_pause_ms": 365.0,
+          "median_generated_longest_quiet_ms": 267.5,
+          "longest_quiet_mae_ms": 200.6
+        }
+      }
+    }
+  }
+}

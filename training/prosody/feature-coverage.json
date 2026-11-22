@@ -1,0 +1,72 @@
+{
+  "train": {
+    "utterances": 201,
+    "syllables": 1783,
+    "voiced_frames": 18432,
+    "speakers": 17,
+    "selected": 225,
+    "missing_syllable_keys": {
+      "wo2": 6,
+      "gei2": 2,
+      "zhei4": 2,
+      "shou2": 1,
+      "jiu2": 2,
+      "gang2": 1,
+      "ban2": 1,
+      "guan2": 1,
+      "dian2": 1,
+      "ding2": 1,
+      "zeng3": 1,
+      "zhuan2": 1,
+      "dei3": 2,
+      "zong2": 1,
+      "si2": 3,
+      "ze3": 1,
+      "jing2": 1
+    },
+    "tones": {
+      "4": 620,
+      "3": 254,
+      "1": 379,
+      "5": 108,
+      "2": 422
+    }
+  },
+  "val": {
+    "utterances": 27,
+    "syllables": 263,
+    "voiced_frames": 2750,
+    "speakers": 2,
+    "selected": 28,
+    "missing_syllable_keys": {
+      "jiu2": 1
+    },
+    "tones": {
+      "1": 48,
+      "4": 101,
+      "2": 65,
+      "3": 33,
+      "5": 16
+    }
+  },
+  "test": {
+    "utterances": 33,
+    "syllables": 343,
+    "voiced_frames": 3562,
+    "speakers": 2,
+    "selected": 36,
+    "missing_syllable_keys": {
+      "jiang2": 1,
+      "gan2": 1,
+      "jin2": 1,
+      "kou2": 1
+    },
+    "tones": {
+      "4": 123,
+      "2": 79,
+      "3": 46,
+      "1": 72,
+      "5": 23
+    }
+  }
+}

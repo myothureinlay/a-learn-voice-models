@@ -13,3 +13,11 @@ See LICENSE and PYPINYIN-LICENSE for the applicable license texts.
 
 Timing supervision: AISHELL-3, Beijing Shell Shell Technology Co., Ltd. (Apache 2.0), https://www.openslr.org/93/. Alignment derived from PaddleSpeech: https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/aishell3/tts3.
 时长层微调使用北京希尔贝壳科技有限公司发布的 AISHELL-3 普通话语料及 PaddleSpeech 的时间对齐标注。
+
+A-Learn experimental Mandarin prosody revision, November 2026.
+Modifications to Kokoro-82M v2-pack weights: supervised adaptation of the final
+pitch projection and a further update to the duration projection. Pitch targets
+derive from AISHELL-3 human recordings measured with Praat via Parselmouth.
+Duration targets derive from PaddleSpeech's AISHELL-3 alignments.
+A-Learn 于 2026 年 11 月以 v2 语音包为基础试验性微调了基频和时长层。
+基频取自 AISHELL-3 真人普通话朗读，时长监督使用 PaddleSpeech 的时间对齐标注。

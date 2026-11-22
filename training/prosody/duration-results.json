@@ -1,0 +1,84 @@
+{
+  "val": {
+    "0": {
+      "raw_ms": 89.1,
+      "relative_ms": 79.03,
+      "short_ms": 54.1,
+      "sustained_ms": 263.91,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 1.0
+    },
+    "0.125": {
+      "raw_ms": 88.75,
+      "relative_ms": 78.74,
+      "short_ms": 54.1,
+      "sustained_ms": 262.91,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 0.9987601637840271
+    },
+    "0.25": {
+      "raw_ms": 88.4,
+      "relative_ms": 78.42,
+      "short_ms": 53.81,
+      "sustained_ms": 261.67,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 0.9971978068351746
+    },
+    "0.5": {
+      "raw_ms": 87.53,
+      "relative_ms": 77.58,
+      "short_ms": 54.65,
+      "sustained_ms": 257.78,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 0.9951109290122986
+    },
+    "0.75": {
+      "raw_ms": 86.73,
+      "relative_ms": 76.88,
+      "short_ms": 54.8,
+      "sustained_ms": 253.97,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 0.9921815395355225
+    },
+    "1.0": {
+      "raw_ms": 85.72,
+      "relative_ms": 75.93,
+      "short_ms": 54.94,
+      "sustained_ms": 249.67,
+      "short_count": 172,
+      "sustained_count": 302,
+      "sentence_length_ratio": 0.9898225665092468
+    }
+  },
+  "strength": 1.0,
+  "test_v2": {
+    "raw_ms": 85.82,
+    "relative_ms": 77.07,
+    "short_ms": 52.48,
+    "sustained_ms": 259.11,
+    "short_count": 339,
+    "sustained_count": 485,
+    "sentence_length_ratio": 1.0
+  },
+  "test_candidate": {
+    "raw_ms": 82.38,
+    "relative_ms": 73.92,
+    "short_ms": 52.39,
+    "sustained_ms": 243.36,
+    "short_count": 339,
+    "sustained_count": 485,
+    "sentence_length_ratio": 0.989243745803833
+  },
+  "offset": 81242567,
+  "utterances": [
+    800,
+    180,
+    300
+  ],
+  "train_syllables": 8427
+}
