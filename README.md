@@ -4,6 +4,13 @@
 
 [Android and voice downloads / 安卓应用与语音包](https://github.com/myothureinlay/a-learn-voice-models/releases/tag/voicepack-v2) · [Version history / 版本记录](CHANGELOG.md) · [Training and evaluation / 训练与评估](training/README.md)
 
+![2.0.2 preview APK requests / 试听版 APK 下载请求](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/mandarin-voice-preview-2.0.2/A-Learn-2.0.2-Voice-Preview.apk?label=preview%20APK)
+![Standalone preview voice pack requests / 独立试听语音包下载请求](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/mandarin-voice-preview-2.0.2/a-learn-mandarin-prosody-preview.zip?label=preview%20pack)
+
+In Settings, first-time voice downloads request the v2 pack listed below. Selecting **Trained preview** creates a local model using the APK's bundled update. The standalone preview pack badge counts downloads of its ZIP. [Current counts from GitHub / GitHub 最新下载计数](https://api.github.com/repos/myothureinlay/a-learn-voice-models/releases/tags/mandarin-voice-preview-2.0.2)
+
+首次在设置中下载语音时，应用请求下方 v2 语音包。选择 **Trained preview** 时，应用使用安装包内的参数在本机生成模型。独立试听语音包的徽章统计该 ZIP 文件的下载请求。
+
 ![v2 pack downloads / v2 语音包下载次数](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/voicepack-v2/a-learn-kokoro-mandarin-v2.zip?label=v2%20voice%20pack)
 ![v1 pack downloads / v1 语音包下载次数](https://img.shields.io/github/downloads/myothureinlay/a-learn-voice-models/voicepack-v1/a-learn-kokoro-mandarin-v1.zip?label=v1%20voice%20pack)
 
