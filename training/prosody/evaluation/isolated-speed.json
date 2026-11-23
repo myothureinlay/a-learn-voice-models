@@ -1,0 +1,52 @@
+{
+  "cal-0.9": {
+    "n": 16,
+    "duration_mae_ms": 262.75,
+    "voiced_duration_mae_ms": 283.4375,
+    "tone4_endpoint_change_mae_st": 13.849075000000003,
+    "tone4_shape_mae_st": 4.4141472222222236,
+    "shape_mae_st": 2.3044576388888895,
+    "duration_mae_by_voice": [
+      262.75
+    ]
+  },
+  "cal-0.7": {
+    "n": 16,
+    "duration_mae_ms": 178.3125,
+    "voiced_duration_mae_ms": 183.75,
+    "tone4_endpoint_change_mae_st": 10.350475000000003,
+    "tone4_shape_mae_st": 4.113186111111112,
+    "shape_mae_st": 2.3823222222222222,
+    "duration_mae_by_voice": [
+      178.3125
+    ]
+  },
+  "test-0.9": {
+    "n": 80,
+    "duration_mae_ms": 299.6625,
+    "voiced_duration_mae_ms": 256.4375,
+    "tone4_endpoint_change_mae_st": 8.966585000000004,
+    "tone4_shape_mae_st": 3.4373105555555576,
+    "shape_mae_st": 1.9626586111111117,
+    "duration_mae_by_voice": [
+      315.1,
+      325.6,
+      268.35,
+      289.6
+    ]
+  },
+  "test-0.7": {
+    "n": 80,
+    "duration_mae_ms": 192.4625,
+    "voiced_duration_mae_ms": 142.0,
+    "tone4_endpoint_change_mae_st": 9.515005000000002,
+    "tone4_shape_mae_st": 3.6727572222222227,
+    "shape_mae_st": 2.1266073611111116,
+    "duration_mae_by_voice": [
+      207.5,
+      203.85,
+      175.2,
+      183.3
+    ]
+  }
+}

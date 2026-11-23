@@ -9,6 +9,10 @@
 
 [Android APK and listening clips / 安卓安装包与试听](https://github.com/myothureinlay/a-learn-voice-models/releases/tag/mandarin-voice-preview-2.0.2) · [Results / 测试结果](training/prosody/README.md)
 
+Android 15 ARM64 verification covered both model settings. The Pinyin **mà** tile started a 24 kHz speech track in each mode and preserved the lesson count. The test device had the v2 pack preloaded. [Follow-up on the falling tone](training/prosody/README.md#follow-up-on-the-falling-tone--第四声复测)
+
+在预装 v2 语音包的 Android 15 ARM64 模拟器上，两种模型模式均通过播放验证。轻触拼音 **mà** 后均产生 24 kHz 语音轨道，练习完成数保持不变。
+
 ## 2026-11-19 · Mandarin Rhythm 2 · Android 2.0.1
 
 - Fine-tuned the syllable-duration layer for the four offline Mandarin voices. On 300 held-out utterances, timing error at matched speaking rate fell from 92.8 to 77.1 ms. Timbre and pitch weights are inherited from Kokoro. Listening tests by Mandarin speakers are pending.

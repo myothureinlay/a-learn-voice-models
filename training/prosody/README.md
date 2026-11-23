@@ -83,3 +83,13 @@ done
 The v2 pack contains the upstream Kokoro model and voice embeddings, the sherpa-onnx conversion, the Mandarin lexicon and normalization assets. AISHELL-3 is released by Beijing Shell Shell Technology Co., Ltd. under Apache 2.0. PaddleSpeech supplies the time alignments. The pitch measurements use Praat through Parselmouth. The reproduction environment installs those analysis tools separately. [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) · [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) · [AISHELL-3](https://www.openslr.org/93/) · [PaddleSpeech](https://github.com/PaddlePaddle/PaddleSpeech/tree/develop/examples/aishell3/tts3) · [Parselmouth](https://github.com/YannickJadoul/Parselmouth)
 
 基础模型、语音向量、转换工具、词典和文本规范化文件的上游来源及许可见仓库声明。微调使用北京希尔贝壳科技有限公司发布的 AISHELL-3 普通话朗读语料与 PaddleSpeech 的对齐标注，基频由 Praat 和 Parselmouth 提取。[Notices · 来源声明](../../NOTICE.txt) · [Apache 2.0](../../LICENSE) · [pypinyin MIT](../../PYPINYIN-LICENSE)
+
+## Follow-up on the falling tone · 第四声复测
+
+An additional pitch fit used 80 recordings spanning 20 new Pinyin syllable families, six separate families for validation, and 201 sentences to constrain changes to connected speech. On 80 rendered syllables from the same independent comparison used above, the mean contour error moved from 1.96 to 1.94 semitones. The fourth-tone error increased from 3.44 to 3.75. That checkpoint remains a local research artifact. [Additional fit results](evaluation/isolated-retraining.json)
+
+额外一次基频微调采用 20 组新音节的 80 条录音，另以 6 组音节验证，并加入 201 条句子以约束连续语流。使用上文相同的 80 条独立合成样本复测，平均声调曲线误差由 1.96 降到 1.94 半音，但第四声误差由 3.44 升到 3.75 半音。该模型仅保留作研究。
+
+With the published preview weights, reducing synthesis speed from 0.9 to 0.7 lowered isolated duration error from 300 to 192 ms. Fourth-tone contour error increased from 3.44 to 3.67 semitones. These are comparisons to individual reference recordings. Native-speaker judgments of tone identity and naturalness are still needed. [Speed experiment](evaluation/isolated-speed.json)
+
+在已发布的试听模型上，将合成速度从 0.9 调为 0.7，单音节时长误差由 300 降到 192 毫秒，第四声曲线误差由 3.44 升到 3.67 半音。上述指标按每个音节的一条参考录音计算，声调辨识度和自然度仍需普通话听众评估。

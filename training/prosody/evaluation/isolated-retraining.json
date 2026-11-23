@@ -1,0 +1,38 @@
+{
+  "candidate": {
+    "tones": [
+      0.673,
+      1.578,
+      1.744,
+      3.751
+    ],
+    "mean_shape_st": 1.936,
+    "duration_mae_ms": 298.85,
+    "closest_tone": 21,
+    "clips": 80
+  },
+  "released_preview": {
+    "tones": [
+      0.754,
+      1.777,
+      1.881,
+      3.437
+    ],
+    "mean_shape_st": 1.963,
+    "duration_mae_ms": 299.66,
+    "closest_tone": 25,
+    "clips": 80
+  },
+  "original": {
+    "tones": [
+      1.063,
+      2.133,
+      1.963,
+      3.09
+    ],
+    "mean_shape_st": 2.062,
+    "duration_mae_ms": 274.86,
+    "closest_tone": 26,
+    "clips": 80
+  }
+}
